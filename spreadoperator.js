@@ -5,3 +5,7 @@ let arr2;
   arr2 = [...arr1]; // Spread operator
 })();
 console.log(arr2);
+
+
+//math.max(...arrayname);
+

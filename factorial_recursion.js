@@ -6,7 +6,7 @@ function factorialize(num) {
   else if (num!==0){
    return 1; 
   }
-  return 0;
+  return (num ===0 ? 1:0);
 }
 
-console.log(factorialize(5));
+console.log(factorialize(0));

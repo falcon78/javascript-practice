@@ -1,4 +1,5 @@
 function titleCase(str) {
+    str = str.toLowerCase();
     let copystr = str.split(" ");
     let newstr = [];
     newstr = copystr.map(string => {

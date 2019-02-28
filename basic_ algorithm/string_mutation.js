@@ -6,7 +6,5 @@ function mutation (arr){
         }
     }
     return true;
-
 }
-
 console.log(mutation(["hello", "Hello"]));

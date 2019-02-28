@@ -5,5 +5,4 @@ function titleCase(str) {
       return string.replace(string.charAt(0),string.charAt(0).toUpperCase())});
     return newstr.join(" ");
   }
-
 titleCase("I'm a little tea pot");

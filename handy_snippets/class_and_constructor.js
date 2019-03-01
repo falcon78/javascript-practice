@@ -16,3 +16,5 @@ class Teacher extends Person{
         console.log("teach");
     }
 }
+
+const teacher = new Teacher ("teacher","Masters");

@@ -1,8 +1,10 @@
 module.exports = {
-	"env": {
-        "node": true,
-        "es6": true
-    },
-    "rules": {
-    }
-}
+  env: {
+    node: true
+  },
+  parserOptions: {
+    ecmaVersion: 9,
+    sourceType: "module"
+  },
+  rules: {}
+};
